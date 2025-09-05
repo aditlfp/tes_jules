@@ -63,6 +63,7 @@ class _CameraScreenState extends State<CameraScreen> {
         size: Size(image.width.toDouble(), image.height.toDouble()),
         rotation: InputImageRotation.rotation270deg,
         format: InputImageFormat.nv21,
+        bytesPerRow: image.planes.first.bytesPerRow,
       ),
     );
 
