@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _init() {
     // No need to await here, let it run in the background
-    PermissionHelper.requestAllPermissions();
+    PermissionHelper.requestAll();
 
     // Load data after the first frame
     WidgetsBinding.instance.addPostFrameCallback((_) {

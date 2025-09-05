@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../../../data/models/user_model.dart';
 import '../../../data/providers/auth_provider.dart';
 import '../../../utils/app_theme.dart';
 import '../camera/camera_screen.dart';
 import '../auth/login_screen.dart';
+import 'settings/notifications_settings_screen.dart';
+import 'settings/privacy_settings_screen.dart';
+import 'settings/help_support_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -134,10 +138,6 @@ class _FaceRecognitionCard extends StatelessWidget {
     );
   }
 }
-
-import 'settings/notifications_settings_screen.dart';
-import 'settings/privacy_settings_screen.dart';
-import 'settings/help_support_screen.dart';
 
 class _SettingsCard extends StatelessWidget {
   @override
