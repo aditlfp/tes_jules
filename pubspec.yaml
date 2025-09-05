@@ -1,0 +1,49 @@
+name: face_attendance_app
+description: "A modern attendance system using face recognition."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For accessing the device camera
+  camera: ^0.10.5+9
+
+  # For face detection from Google ML Kit
+  google_mlkit_face_detection: ^0.8.0
+
+  # For state management
+  provider: ^6.1.1
+
+  # For date/time formatting
+  intl: ^0.18.1
+
+  # For handling device permissions (camera, location, etc.)
+  permission_handler: ^11.0.1
+
+  # For using custom fonts from Google Fonts
+  google_fonts: ^6.1.0
+
+  # Standard iOS-style icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linter package
+  flutter_lints: ^2.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
