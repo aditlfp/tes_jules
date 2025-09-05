@@ -57,7 +57,7 @@ class AppTheme {
         tertiary: accentColor,
       ),
 
-      cardTheme: const CardTheme(
+      cardTheme: const CardThemeData(
         elevation: 2,
         shadowColor: Colors.black.withOpacity(0.05),
         color: cardColor,
